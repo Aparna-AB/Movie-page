@@ -1,0 +1,143 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+.bg1{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/9134db96-10d6-4a64-a619-a21da22f8999/a449fabb-05e4-4c8a-b062-b0bec7d03085/IN-en-20240115-trifectadaily-perspective_alpha_website_large.jpg");
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    /* filter: blur(1px) brightness(0.8); */
+    background-size: cover;
+     width: 100%;
+     height: 45rem;
+display: flex;
+justify-content: center;
+align-items: center;
+filter: blur(2px);
+-webkit-filter: blur(2px);
+}
+.sel1{
+    position: absolute;
+    top:30px;
+    left:1070px;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0); /* Black w/opacity/see-through */
+    color: white;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: 1px solid rgb(219, 204, 204);
+  border-radius: 4px;
+  height: 35px;
+  width: 130px;
+   text-align: center; 
+
+}
+.bt{
+    border: 1px solid rgb(242, 19, 19);
+    border-radius: 0.3rem;
+    background-color: red;  /*Black w/opacity/see-through  */
+    height: 35px;
+    width:80px;
+    position: absolute;
+    top:28px;
+    left:1220px;
+    cursor: pointer;
+}
+.bt1{
+    position: absolute;
+    top:28px;
+    left:1220px;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 8px;
+    padding-left: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+
+}
+
+.head1{
+    justify-content: center;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    /* border: 3px solid #f1f1f1; */
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.head2{
+    font-size: 30px;
+    font-weight:lighter;
+}
+.head3{
+    font-size: 22px;
+    font-weight:lighter;
+    word-spacing: 2px;
+}
+
+.img1{
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    opacity: 100px;
+    
+}
+
+.t1{
+    border: 1px solid rgb(242, 19, 19);
+    border-radius: 0.3rem;
+    /* background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0);  /*Black w/opacity/see-through  */
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    height: 50px;
+    width:405px;
+    position: absolute;
+    left:350px;
+}
+.t2{
+    font-size: 1rem;
+    font-weight: 10;
+    color: white;
+    position: absolute;
+    top:275px;
+    left:370px;
+}
+.b1{
+    border: 1px solid rgb(242, 19, 19);
+    border-radius: 0.3rem;
+    background-color: red;  /*Black w/opacity/see-through  */
+    height: 50px;
+    width:220px;
+    position: absolute;
+    /* top:275px; */
+    left:770px;
+    cursor: pointer;
+}
+.b2{
+color: white;
+position: absolute;
+top:268px;
+left:810px;
+font-size: x-large;
+font-weight: lighter;
+font-family:sans-serif;
+cursor: pointer;
+
+}
